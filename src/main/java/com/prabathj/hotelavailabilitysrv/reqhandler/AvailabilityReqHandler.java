@@ -32,7 +32,7 @@ public class AvailabilityReqHandler extends Handler{
 
 	public ConcurrentHashMap<LocalDateCustom,boolean[]> temporyBooking = new ConcurrentHashMap<>();
 	public ConcurrentHashMap<LocalDateCustom,String[]> confimedBooking = new ConcurrentHashMap<>();
-	private static int NO_ROOMS=10;
+	public static int NO_ROOMS=10;
 	
 	
 	@Override

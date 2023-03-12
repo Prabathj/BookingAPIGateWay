@@ -11,7 +11,6 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.util.concurrent.Executors;
 
-import com.prabathj.bookinggw.utilities.exception.ApplicationException;
 import com.prabathj.hotelavailabilitysrv.model.ConfigData;
 import com.prabathj.hotelavailabilitysrv.reqhandler.AvailabilityReqHandler;
 import com.sun.net.httpserver.HttpServer;
